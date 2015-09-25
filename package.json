@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-timestamps",
+  "version": "1.0.0",
+  "description": "simple timestamps plugin for Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter spec --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdesterlich/mongoose-timestamps.git"
+  },
+  "keywords": [
+    "mongoose",
+    "timestamps"
+  ],
+  "author": "Phelipe de Sterlich <p.desterlich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdesterlich/mongoose-timestamps/issues"
+  },
+  "homepage": "https://github.com/pdesterlich/mongoose-timestamps",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
