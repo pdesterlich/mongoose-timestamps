@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-timestamps",
-  "version": "1.0.0",
+  "name": "moorea-mongoose-timestamps",
+  "version": "0.1.0",
   "description": "simple timestamps plugin for Mongoose",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,6 @@
   },
   "homepage": "https://github.com/pdesterlich/mongoose-timestamps",
   "license": "MIT",
-  "dependencies": {
-    "lodash": "^3.10.1"
-  },
   "devDependencies": {
     "mongoose": "^4.1.8"
   }

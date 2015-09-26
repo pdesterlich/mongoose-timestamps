@@ -1,11 +1,11 @@
+/**
+ * Mongoose Timestamps
+ * simple timestamps plugin for Mongoose
+ **/
+ 
 'use strict';
 
-var
-  _ = require('lodash');
-
-function Timestamps (schema, options) {
-
-  // options = _.defaults(options || {}, Timestamps.defaultOptions);
+function Timestamps (schema) {
 
   schema.add({
     timestamps: {
